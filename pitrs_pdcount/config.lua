@@ -2,63 +2,63 @@ Config = {}
 
 Config.Requirements = {
     {
-        name = "Bankomaty",
+        name = "ATM",
         jobs = {
             {job = "police", count = 3},
             {job = "sheriff", count = 3}
         }
     },
     {
-        name = "Vykrádání hrobů",
+        name = "Grave robbing",
         jobs = {
             {job = "police", count = 2},
             {job = "sheriff", count = 2}
         }
     },
     {
-        name = "Vykrádání garáží",
+        name = "Robbing garages",
         jobs = {
             {job = "police", count = 2},
             {job = "sheriff", count = 2}
         }
     },
     {
-        name = "Prodej drog",
+        name = "Sale of drugs",
         jobs = {
             {job = "police", count = 4},
             {job = "sheriff", count = 4}
         }
     },
     {
-        name = "Banka",
+        name = "Bank",
         jobs = {
             {job = "police", count = 6},
             {job = "sheriff", count = 6}
         }
     },
     {
-        name = "Obchody",
+        name = "Shops",
         jobs = {
             {job = "police", count = 5},
             {job = "sheriff", count = 5}
         }
     },
     {
-        name = "Klenotnictví",
+        name = "Jewellers",
         jobs = {
             {job = "police", count = 7},
             {job = "sheriff", count = 7}
         }
     },
     {
-        name = "Lokátor",
+        name = "Locator",
         jobs = {
             {job = "police", count = 3},
             {job = "sheriff", count = 3}
         }
     },
     {
-        name = "Baraky",
+        name = "House Robbery",
         jobs = {
             {job = "police", count = 2},
             {job = "sheriff", count = 2}
