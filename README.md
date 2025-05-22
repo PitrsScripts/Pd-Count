@@ -8,6 +8,8 @@
 
 A simple yet powerful utility that helps players instantly see which criminal activities are currently **available** based on the **number of online police officers**. Designed with **ox_lib** for a smooth and modern UI.
 
+![image](https://github.com/user-attachments/assets/f79074bc-adde-4581-9680-9798991e1469)
+
 
 ### ✨ Features
 
