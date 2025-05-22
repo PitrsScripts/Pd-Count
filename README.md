@@ -2,7 +2,6 @@
 
 **pitrs-pdcount** is a lightweight utility that gives players instant insight into which criminal activities are currently available based on live police presence. Designed for clarity and balance, it adds immersion and fairness to RP servers by dynamically locking or unlocking illegal actions depending on how many PD are online. Perfect for servers that want to prevent unrealistic crime sprees during low police hours while keeping the gameplay intuitive and transparent.
 
-![{8E815452-AD0F-4B96-BF7C-175E9A6A44B1}|534x500](upload://olZhf772QwXF2ECRxzoBrprQxoc.png)
 
 
 **PD COUNT**
