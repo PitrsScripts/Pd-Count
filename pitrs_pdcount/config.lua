@@ -63,6 +63,6 @@ Config.Requirements = {
             {job = "police", count = 2},
             {job = "sheriff", count = 2}
         }
-    }
+    } 
 }
 
