@@ -1,6 +1,13 @@
 Config = {}
 
 Config.Requirements = {
+    -- {
+     --   name = "NAME",
+      --  jobs = {
+      --      {job = "police", count = 3},
+      --      {job = "sheriff", count = 3}
+     --   }
+   -- },
     {
         name = "ATM",
         jobs = {
