@@ -1,13 +1,8 @@
 Config = {}
 
+Config.PDCountCooldown = 15 -- second to coldown command /pdcount
+
 Config.Requirements = {
-    -- {
-     --   name = "NAME",
-      --  jobs = {
-      --      {job = "police", count = 3},
-      --      {job = "sheriff", count = 3}
-     --   }
-   -- },
     {
         name = "ATM",
         jobs = {
@@ -70,6 +65,5 @@ Config.Requirements = {
             {job = "police", count = 2},
             {job = "sheriff", count = 2}
         }
-    } 
+    }
 }
-

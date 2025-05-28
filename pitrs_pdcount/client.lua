@@ -1,7 +1,23 @@
 ESX = exports["es_extended"]:getSharedObject()
 
 
+local lastUsed = 0
+
 RegisterCommand('pdcount', function()
+    local currentTime = GetGameTimer() 
+    local cooldown = Config.PDCountCooldown * 1000 
+    if currentTime - lastUsed < cooldown then
+        local remaining = math.ceil((cooldown - (currentTime - lastUsed)) / 1000)
+        lib.notify({
+            title = 'Cooldown',
+            description = 'You can use this command again for ' .. remaining .. 's.',
+            type = 'error'
+        })
+        return
+    end
+
+    lastUsed = currentTime
+
     lib.callback('pdcount:getPDCount', false, function(jobCounts)
         local options = {}
 
@@ -34,4 +50,3 @@ RegisterCommand('pdcount', function()
         lib.showContext('pdcount_menu')
     end)
 end)
-
